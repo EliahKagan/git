@@ -1,7 +1,6 @@
 name: Windows Nano Server tests
 
-on:
-  workflow_dispatch:
+on: [push, workflow_dispatch]
 
 env:
   DEVELOPER: 1
